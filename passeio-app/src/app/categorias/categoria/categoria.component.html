@@ -3,11 +3,11 @@
 
     <hr class="mt-5 mb-5" />
 
-    <form action="" id="categoriaForm">
+    <form id="categoriaForm" [formGroup]="camposForm" (ngSubmit)="salvar()">
         <!-- campo nome -->
         <div class="mb-4">
             <label class="block text-gray-600 font-medium mb-2">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Ex: Restaurantes, Praias, Shopping"
+            <input type="text" id="nome" name="nome" formControlName="nome" placeholder="Ex: Restaurantes, Praias, Shopping"
                 class="w-full p-3 border border-gray-300 rounded shadow-sm focus:ring focus:ring-blue-400" required />
             <span class="text-red-500 text-sm">
                 Campo Obrigatório
@@ -20,6 +20,7 @@
             <textarea id="descricao" 
                       name="descricao" 
                       rows="4" 
+                      formControlName="descricao"
                       placeholder="Ex: Restaurantes, Praias, Shopping"  
                       class="w-full p-3 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring focus:ring-blue-400"
                       required></textarea>
