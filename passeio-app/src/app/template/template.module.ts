@@ -14,4 +14,5 @@ import { LayoutComponent } from './layout/layout.component';
     TemplateRoutingModule
   ]
 })
+
 export class TemplateModule { }
