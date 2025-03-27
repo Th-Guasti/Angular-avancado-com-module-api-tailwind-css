@@ -1,19 +1,58 @@
 {
   "categorias": [
     {
-      "id": "2",
-      "nome": "Shoppings",
-      "descricao": "Lugares para fazer compras e passear"
+      "id": "89cc",
+      "nome": "Praia",
+      "descricao": "Lazer"
     },
     {
-      "id": "b9a3",
-      "nome": "Restaurantes Atualizado",
-      "descricao": "Lugares para alimentação"
+      "id": "1640",
+      "nome": "Shopping",
+      "descricao": "Lazer"
     },
     {
-      "id": "a2e9",
-      "nome": "receba",
-      "descricao": "quisque de vila velha"
+      "id": "57e2",
+      "nome": "Restaurante",
+      "descricao": "Alimentação\n"
+    },
+    {
+      "id": "d9f4",
+      "nome": "Bar",
+      "descricao": "Lazer/alimentação\n"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "046a",
+      "nome": "Praia da Costa",
+      "categoria": "PRAIA",
+      "localizacao": "Vila Velha - ES",
+      "urlFoto": "https://c1.wallpaperflare.com/preview/917/14/321/dawn-praia-da-costa-old-village.jpg",
+      "avaliacao": "4"
+    },
+    {
+      "id": "aad2",
+      "nome": "Oriundi",
+      "categoria": "SHOPPING",
+      "localizacao": "Aracruz - ES",
+      "urlFoto": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/5b/7f/06/lazer-compras-e-diversao.jpg?w=900&h=500&s=1",
+      "avaliacao": "4"
+    },
+    {
+      "id": "2b41",
+      "nome": "Casa de pasto",
+      "categoria": "RESTAURANTE",
+      "localizacao": "João Neiva - ES",
+      "urlFoto": "https://lifecooler.com/files/registos/imagens/417572/399368.jpg",
+      "avaliacao": "2"
+    },
+    {
+      "id": "19ee",
+      "nome": "Buana tricolor",
+      "categoria": "BAR",
+      "localizacao": "Vitória - ES",
+      "urlFoto": "https://img.restaurantguru.com/r92c-facade-Buana-Tricolor.jpg",
+      "avaliacao": "1"
     }
   ]
 }
