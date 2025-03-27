@@ -30,7 +30,7 @@
     {
       "id": "046a",
       "nome": "Praia da Costa",
-      "categoria": "PRAIA",
+      "categoria": "Praia",
       "localizacao": "Vila Velha - ES",
       "urlFoto": "https://c1.wallpaperflare.com/preview/917/14/321/dawn-praia-da-costa-old-village.jpg",
       "avaliacao": "4"
@@ -38,7 +38,7 @@
     {
       "id": "aad2",
       "nome": "Oriundi",
-      "categoria": "SHOPPING",
+      "categoria": "Shopping",
       "localizacao": "Aracruz - ES",
       "urlFoto": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/5b/7f/06/lazer-compras-e-diversao.jpg?w=900&h=500&s=1",
       "avaliacao": "4"
@@ -46,7 +46,7 @@
     {
       "id": "2b41",
       "nome": "Casa de pasto",
-      "categoria": "RESTAURANTE",
+      "categoria": "Restaurante",
       "localizacao": "João Neiva - ES",
       "urlFoto": "https://lifecooler.com/files/registos/imagens/417572/399368.jpg",
       "avaliacao": "2"
@@ -54,7 +54,7 @@
     {
       "id": "19ee",
       "nome": "Buana tricolor",
-      "categoria": "BAR",
+      "categoria": "Bar",
       "localizacao": "Vitória - ES",
       "urlFoto": "https://img.restaurantguru.com/r92c-facade-Buana-Tricolor.jpg",
       "avaliacao": "1"
