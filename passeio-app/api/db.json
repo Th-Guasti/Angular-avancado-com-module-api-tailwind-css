@@ -19,6 +19,11 @@
       "id": "d9f4",
       "nome": "Bar",
       "descricao": "Lazer/alimentação\n"
+    },
+    {
+      "id": "54ea",
+      "nome": "Parque aquático",
+      "descricao": "Lazer"
     }
   ],
   "lugares": [
@@ -53,6 +58,14 @@
       "localizacao": "Vitória - ES",
       "urlFoto": "https://img.restaurantguru.com/r92c-facade-Buana-Tricolor.jpg",
       "avaliacao": "1"
+    },
+    {
+      "id": "5af9",
+      "nome": "SESC Praia Formosa",
+      "categoria": "Parque aquático",
+      "localizacao": "Santa Cruz - ES",
+      "urlFoto": "https://portal.sesc-es.com.br/wp-content/uploads/2024/12/praia-form-1.jpg",
+      "avaliacao": "5"
     }
   ]
 }
