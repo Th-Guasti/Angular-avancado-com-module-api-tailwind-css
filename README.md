@@ -14,3 +14,4 @@
 2º npm install --save-dev json-server@0.17.4
 
 - npm install --save angular-oauth2-oidc@19.0.0 (permite usar o (OAuth) console do google cloud)
+- ng g guard auth (proteção de paginas)
