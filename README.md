@@ -8,3 +8,7 @@
 - ng g c <pasta/nome component> (criar componente)
 - ng g s <pasta/nome service> (criar service)
 - ng g class <pasta/nome class>
+
+(input pesquisando sem digitar o nome completo)
+1º npm remove json-server
+2º npm install --save-dev json-server@0.17.4
