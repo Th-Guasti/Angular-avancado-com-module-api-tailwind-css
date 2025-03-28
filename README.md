@@ -12,3 +12,5 @@
 (input pesquisando sem digitar o nome completo)
 1º npm remove json-server
 2º npm install --save-dev json-server@0.17.4
+
+- npm install --save angular-oauth2-oidc@19.0.0 (permite usar o console do google cloud)
