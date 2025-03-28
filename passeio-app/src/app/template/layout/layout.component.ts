@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { LayoutProps } from './layoutprops';
 import { ActivatedRoute, Router } from '@angular/router';
-import { filter, map, Observable } from 'rxjs';
+import { filter, map } from 'rxjs';
+import { AuthgoogleService } from '../../authgoogle.service';
 
 @Component({
   selector: 'app-layout',
@@ -14,7 +15,8 @@ export class LayoutComponent {
 
   constructor(
     private router: Router,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private loginService: AuthgoogleService
   ) { }
 
   ngOnInit(): void {
@@ -33,5 +35,9 @@ export class LayoutComponent {
     }
 
     return rotaFilha?.snapshot.data as LayoutProps;
+  }
+
+  logout() {
+    this.loginService.logout();
   }
 }
